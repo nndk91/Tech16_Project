@@ -1,0 +1,194 @@
+query_text,output,timestamp
+"What item details, quantiy and value did abe company bought? sum by item details","Empty DataFrame
+Columns: [Item_Details, Quantity, Value]
+Index: []",2025-02-27 13:06:30.138631
+"What item details, quantiy and value did abe company bought? sum by item details","Empty DataFrame
+Columns: [Item_Details, Quantity, Value]
+Index: []",2025-02-27 13:06:33.180258
+"What item details, quantiy and value did abe company bought? ","                  Item_Details   Quantity    Value
+499        SPHC-PO 2.3 XẢ BĂNG   590000.0   410.05
+500        SPHC-PO 1.8 XẢ BĂNG   560000.0   385.84
+501        SPHC-PO 1.8 XẢ BĂNG   260000.0   179.14
+502        SPHC-PO 1.8 XẢ BĂNG   520000.0   358.28
+503        SPHC-PO 1.8 XẢ BĂNG   440000.0   303.16
+...                        ...        ...      ...
+127156            PO 1.8x164xC     1390.0   952.15
+128455     GI 0.5x284x485x216T      118.0   101.52
+128456   GI 0.5x274.5x505x216T      119.0   101.52
+129897    PO 2.3x1235x3000x36T   800000.0   540.00
+129898    PO 2.3x1235x3000x36T  1530000.0  1032.75
+
+[5264 rows x 3 columns]",2025-02-27 13:32:02.905800
+"What item details, quantiy and value did abe company bought? ","                  Item_Details   Quantity    Value
+499        SPHC-PO 2.3 XẢ BĂNG   590000.0   410.05
+500        SPHC-PO 1.8 XẢ BĂNG   560000.0   385.84
+501        SPHC-PO 1.8 XẢ BĂNG   260000.0   179.14
+502        SPHC-PO 1.8 XẢ BĂNG   520000.0   358.28
+503        SPHC-PO 1.8 XẢ BĂNG   440000.0   303.16
+...                        ...        ...      ...
+127156            PO 1.8x164xC     1390.0   952.15
+128455     GI 0.5x284x485x216T      118.0   101.52
+128456   GI 0.5x274.5x505x216T      119.0   101.52
+129897    PO 2.3x1235x3000x36T   800000.0   540.00
+129898    PO 2.3x1235x3000x36T  1530000.0  1032.75
+
+[5264 rows x 3 columns]",2025-02-27 13:32:18.206975
+What unique item details did sanaky company bought? ,"['SPCC 0.4 XẢ BĂNG' 'SPCC 0.5 XẢ BĂNG' 'CR 0.5 xả băng' 'CR 0.4 xả băng'
+ 'GI 0.4 xả băng' 'SGCC 0.4 XẢ BĂNG' 'CR 0.5 cắt tấm' 'SGCC 0.4 CẮT TẤM'
+ 'SPCC 0.4 XA BANG' 'SPCC 0.5 XA BANG' 'SGCC 0.4*478*C' 'CR 0.4 XẢ BĂNG'
+ 'CR 0.5 XẢ BĂNG' 'GI 0.4 XẢ BĂNG' 'CR 0.4x460xC' 'CR 0.4x756xC'
+ 'CR 0.4x700xC' 'CR 0.5x890xC' 'CR 0.5x647xC' 'CR 0.4x565xC'
+ 'CR 0.4x847xC' 'GI 0.5x88x346x3600T' 'CR 0.4x487xC' 'CR 0.4x663xC'
+ 'CR 0.5x577xC' 'CR 0.5x802xC' 'CR 0.5x690xC' 'Thép cán nguội 0.4x617'
+ 'Thép cán nguội 0.5x595' 'Thép cán nguội  0.5x117'
+ 'Thép cán nguội  0.5x105' 'Thép cán nguội  0.5x676'
+ 'Thép cán nguội 0.4x647' 'GI 0.4x530xC' 'Thép cán nguội 0.4x577'
+ 'Thép cán nguội 0.4x622' 'Thép mạ kẽm 0.4x333'
+ 'Thép băng cán nguội 0.5x711' 'Thép băng cán nguội 0.5x595'
+ 'Thép tấm mạ kẽm 0.5x88x346' 'Thép băng cán nguội 0.5x452'
+ 'Thép băng cán nguội 0.5x297' 'Thép băng cán nguội 0.5x367'
+ 'Thép băng cán nguội 0.5x95' 'Tôn dầu 0.4x460xC' 'Tôn dầu 0.5x690xC'
+ 'Tôn dầu 0.5x790xC' 'Tôn dầu 0.4x577xC' 'Tôn dầu 0.4x622xC'
+ 'Tôn dầu 0.4x487xC' 'Thép băng mạ kẽm 0.4x333' 'Tôn dầu 0.4x811xC'
+ 'CR 0.4x614xC' 'Tôn dầu 0.4x756xC' 'Tôn dầu 0.4x562xC'
+ 'Tôn dầu 0.4x528xC' 'Tôn dầu 0.4x890xC' 'Tôn dầu 0.5x802xC'
+ 'Tôn dầu 0.4x663xC' 'Thép cán nguội 0.5x676xC' 'CR 0.4x275xC'
+ 'Thép băng Tôn dầu 0.4x647' 'CR 0.5x622xC' 'CR 0.5x528xC' 'CR 0.5x617xC'
+ 'CR 0.5x562xC' 'GI 0.4x351xC' 'GI 0.4x659xC' 'GI 0.4x292xC'
+ 'CR 0.5x811xC' 'CR 0.5x790xC' 'Thép băng mạ kẽm 0.4x676'
+ 'Thép cán nguội 0.4x565' 'Tôn dầu 0.4x647xC' 'Tôn dầu 0.4x617xC'
+ 'Thép cán nguội 0.5x711xC' 'Thép cán nguội 0.5x445xC'
+ 'Thép băng mạ kẽm 0.4x210' 'Thép cán nguội 0.5x95xC'
+ 'Thép mạ kẽm 0.4x676xC' 'Thép mạ kẽm 0.4x210xC' 'Thép mạ kẽm 0.4x333xC'
+ 'Thép mạ kẽm 0.5x88x346x2200T' 'Thép cán nguội 0.5x297xC'
+ 'Thép cán nguội 0.5x495xC' 'Thép cán nguội 0.5x523xC'
+ 'Thép cán nguội 0.4x663xC' 'Thép cán nguội 0.4x614xC' 'Tôn dầu 0.4x700xC'
+ 'Thép cán nguội 0.4x614' 'Thép cán nguội 0.4x460xC'
+ 'Thép cán nguội 0.4x700xC' 'Thép cán nguội 0.4x487xC'
+ 'Thép cán nguội 0.4x756xC' 'Thép cán nguội 0.4x275xC'
+ 'Thép cán nguội 0.4x811xC' 'Thép cán nguội 0.4x647xC'
+ 'Thép cán nguội 0.4x577xC' 'Thép cán nguội 0.5x690xC'
+ 'Thép cán nguội 0.5x790xC' 'Tôn dầu 0.4x614xC' 'Thép cán nguội 0.4x890xC'
+ 'Thép cán nguội 0.4x617xC' 'Thép cán nguội 0.4x622xC'
+ 'Thép cán nguội 0.5x802xC' 'Thép cán nguội 0.4x565xC'
+ 'Thép cán nguội 0.5x452xC' 'Thép cán nguội 0.5x595xC'
+ 'Thép cán nguội 0.5x367xC' 'Thép cán nguội 0.5x118xC'
+ 'Thép cán nguội 0.5x105xC' 'Tôn dầu 0.4x275xC' 'Thép cán nguội 0.4x562xC'
+ 'Thép cán nguội 0.4x528xC' 'Tôn dầu 0.4x565xC' 'Tôn dầu 0.5x452xC'
+ 'Tôn dầu 0.5x495xC' 'Tôn kẽm 0.4x530xC' 'Tôn Dầu 0.4x756xC'
+ 'Tôn Dầu 0.5x802xC' 'Tôn Dầu 0.4x487xC' 'Tôn Dầu 0.5x676xC'
+ 'Tôn Dầu 0.4x663xC' 'Thép Mạ Kẽm GI 0.4x292xC' 'Tôn Dầu 0.4x460xC'
+ 'Tôn dầu 0.5x711xC' 'Thép Mạ Kẽm GI 0.4x604xC' 'Thép Mạ Kẽm GI 0.4x530xC'
+ 'Tôn Dầu 0.4x647xC' 'Tôn Dầu 0.5x790xC' 'Tôn Dầu 0.5x711xC'
+ 'Tôn Dầu 0.4x700xC' 'Thép Mạ Kẽm GI 0.4x120xC' 'Tôn Dầu 0.4x622xC'
+ 'Tôn dầu 0.5x676xC' 'Tôn dầu 0.5x122xC' 'Tôn Dầu 0.4x275xC'
+ 'Tôn Dầu 0.4x811xC' 'Tôn Dầu 0.4x614xC' 'Tôn Dầu 0.4x617xC'
+ 'Tôn Dầu 0.4x890xC' 'Tôn Dầu 0.5x495xC' 'Tôn Dầu 0.5x690xC'
+ 'Tôn Dầu 0.4x565xC' 'Thép Mạ Kẽm GI 0.4x351xC' 'Thép Mạ Kẽm GI 0.4x770xC'
+ 'Thép Mạ Kẽm GI 0.4x676xC']",2025-02-27 13:36:55.819668
+What unique item details did sanaky company bought? ,"['SPCC 0.4 XẢ BĂNG' 'SPCC 0.5 XẢ BĂNG' 'CR 0.5 xả băng' 'CR 0.4 xả băng'
+ 'GI 0.4 xả băng' 'SGCC 0.4 XẢ BĂNG' 'CR 0.5 cắt tấm' 'SGCC 0.4 CẮT TẤM'
+ 'SPCC 0.4 XA BANG' 'SPCC 0.5 XA BANG' 'SGCC 0.4*478*C' 'CR 0.4 XẢ BĂNG'
+ 'CR 0.5 XẢ BĂNG' 'GI 0.4 XẢ BĂNG' 'CR 0.4x460xC' 'CR 0.4x756xC'
+ 'CR 0.4x700xC' 'CR 0.5x890xC' 'CR 0.5x647xC' 'CR 0.4x565xC'
+ 'CR 0.4x847xC' 'GI 0.5x88x346x3600T' 'CR 0.4x487xC' 'CR 0.4x663xC'
+ 'CR 0.5x577xC' 'CR 0.5x802xC' 'CR 0.5x690xC' 'Thép cán nguội 0.4x617'
+ 'Thép cán nguội 0.5x595' 'Thép cán nguội  0.5x117'
+ 'Thép cán nguội  0.5x105' 'Thép cán nguội  0.5x676'
+ 'Thép cán nguội 0.4x647' 'GI 0.4x530xC' 'Thép cán nguội 0.4x577'
+ 'Thép cán nguội 0.4x622' 'Thép mạ kẽm 0.4x333'
+ 'Thép băng cán nguội 0.5x711' 'Thép băng cán nguội 0.5x595'
+ 'Thép tấm mạ kẽm 0.5x88x346' 'Thép băng cán nguội 0.5x452'
+ 'Thép băng cán nguội 0.5x297' 'Thép băng cán nguội 0.5x367'
+ 'Thép băng cán nguội 0.5x95' 'Tôn dầu 0.4x460xC' 'Tôn dầu 0.5x690xC'
+ 'Tôn dầu 0.5x790xC' 'Tôn dầu 0.4x577xC' 'Tôn dầu 0.4x622xC'
+ 'Tôn dầu 0.4x487xC' 'Thép băng mạ kẽm 0.4x333' 'Tôn dầu 0.4x811xC'
+ 'CR 0.4x614xC' 'Tôn dầu 0.4x756xC' 'Tôn dầu 0.4x562xC'
+ 'Tôn dầu 0.4x528xC' 'Tôn dầu 0.4x890xC' 'Tôn dầu 0.5x802xC'
+ 'Tôn dầu 0.4x663xC' 'Thép cán nguội 0.5x676xC' 'CR 0.4x275xC'
+ 'Thép băng Tôn dầu 0.4x647' 'CR 0.5x622xC' 'CR 0.5x528xC' 'CR 0.5x617xC'
+ 'CR 0.5x562xC' 'GI 0.4x351xC' 'GI 0.4x659xC' 'GI 0.4x292xC'
+ 'CR 0.5x811xC' 'CR 0.5x790xC' 'Thép băng mạ kẽm 0.4x676'
+ 'Thép cán nguội 0.4x565' 'Tôn dầu 0.4x647xC' 'Tôn dầu 0.4x617xC'
+ 'Thép cán nguội 0.5x711xC' 'Thép cán nguội 0.5x445xC'
+ 'Thép băng mạ kẽm 0.4x210' 'Thép cán nguội 0.5x95xC'
+ 'Thép mạ kẽm 0.4x676xC' 'Thép mạ kẽm 0.4x210xC' 'Thép mạ kẽm 0.4x333xC'
+ 'Thép mạ kẽm 0.5x88x346x2200T' 'Thép cán nguội 0.5x297xC'
+ 'Thép cán nguội 0.5x495xC' 'Thép cán nguội 0.5x523xC'
+ 'Thép cán nguội 0.4x663xC' 'Thép cán nguội 0.4x614xC' 'Tôn dầu 0.4x700xC'
+ 'Thép cán nguội 0.4x614' 'Thép cán nguội 0.4x460xC'
+ 'Thép cán nguội 0.4x700xC' 'Thép cán nguội 0.4x487xC'
+ 'Thép cán nguội 0.4x756xC' 'Thép cán nguội 0.4x275xC'
+ 'Thép cán nguội 0.4x811xC' 'Thép cán nguội 0.4x647xC'
+ 'Thép cán nguội 0.4x577xC' 'Thép cán nguội 0.5x690xC'
+ 'Thép cán nguội 0.5x790xC' 'Tôn dầu 0.4x614xC' 'Thép cán nguội 0.4x890xC'
+ 'Thép cán nguội 0.4x617xC' 'Thép cán nguội 0.4x622xC'
+ 'Thép cán nguội 0.5x802xC' 'Thép cán nguội 0.4x565xC'
+ 'Thép cán nguội 0.5x452xC' 'Thép cán nguội 0.5x595xC'
+ 'Thép cán nguội 0.5x367xC' 'Thép cán nguội 0.5x118xC'
+ 'Thép cán nguội 0.5x105xC' 'Tôn dầu 0.4x275xC' 'Thép cán nguội 0.4x562xC'
+ 'Thép cán nguội 0.4x528xC' 'Tôn dầu 0.4x565xC' 'Tôn dầu 0.5x452xC'
+ 'Tôn dầu 0.5x495xC' 'Tôn kẽm 0.4x530xC' 'Tôn Dầu 0.4x756xC'
+ 'Tôn Dầu 0.5x802xC' 'Tôn Dầu 0.4x487xC' 'Tôn Dầu 0.5x676xC'
+ 'Tôn Dầu 0.4x663xC' 'Thép Mạ Kẽm GI 0.4x292xC' 'Tôn Dầu 0.4x460xC'
+ 'Tôn dầu 0.5x711xC' 'Thép Mạ Kẽm GI 0.4x604xC' 'Thép Mạ Kẽm GI 0.4x530xC'
+ 'Tôn Dầu 0.4x647xC' 'Tôn Dầu 0.5x790xC' 'Tôn Dầu 0.5x711xC'
+ 'Tôn Dầu 0.4x700xC' 'Thép Mạ Kẽm GI 0.4x120xC' 'Tôn Dầu 0.4x622xC'
+ 'Tôn dầu 0.5x676xC' 'Tôn dầu 0.5x122xC' 'Tôn Dầu 0.4x275xC'
+ 'Tôn Dầu 0.4x811xC' 'Tôn Dầu 0.4x614xC' 'Tôn Dầu 0.4x617xC'
+ 'Tôn Dầu 0.4x890xC' 'Tôn Dầu 0.5x495xC' 'Tôn Dầu 0.5x690xC'
+ 'Tôn Dầu 0.4x565xC' 'Thép Mạ Kẽm GI 0.4x351xC' 'Thép Mạ Kẽm GI 0.4x770xC'
+ 'Thép Mạ Kẽm GI 0.4x676xC']",2025-02-27 13:37:04.651858
+What unique item details did sanaky company bought? ,"['SPCC 0.4 XẢ BĂNG' 'SPCC 0.5 XẢ BĂNG' 'CR 0.5 xả băng' 'CR 0.4 xả băng'
+ 'GI 0.4 xả băng' 'SGCC 0.4 XẢ BĂNG' 'CR 0.5 cắt tấm' 'SGCC 0.4 CẮT TẤM'
+ 'SPCC 0.4 XA BANG' 'SPCC 0.5 XA BANG' 'SGCC 0.4*478*C' 'CR 0.4 XẢ BĂNG'
+ 'CR 0.5 XẢ BĂNG' 'GI 0.4 XẢ BĂNG' 'CR 0.4x460xC' 'CR 0.4x756xC'
+ 'CR 0.4x700xC' 'CR 0.5x890xC' 'CR 0.5x647xC' 'CR 0.4x565xC'
+ 'CR 0.4x847xC' 'GI 0.5x88x346x3600T' 'CR 0.4x487xC' 'CR 0.4x663xC'
+ 'CR 0.5x577xC' 'CR 0.5x802xC' 'CR 0.5x690xC' 'Thép cán nguội 0.4x617'
+ 'Thép cán nguội 0.5x595' 'Thép cán nguội  0.5x117'
+ 'Thép cán nguội  0.5x105' 'Thép cán nguội  0.5x676'
+ 'Thép cán nguội 0.4x647' 'GI 0.4x530xC' 'Thép cán nguội 0.4x577'
+ 'Thép cán nguội 0.4x622' 'Thép mạ kẽm 0.4x333'
+ 'Thép băng cán nguội 0.5x711' 'Thép băng cán nguội 0.5x595'
+ 'Thép tấm mạ kẽm 0.5x88x346' 'Thép băng cán nguội 0.5x452'
+ 'Thép băng cán nguội 0.5x297' 'Thép băng cán nguội 0.5x367'
+ 'Thép băng cán nguội 0.5x95' 'Tôn dầu 0.4x460xC' 'Tôn dầu 0.5x690xC'
+ 'Tôn dầu 0.5x790xC' 'Tôn dầu 0.4x577xC' 'Tôn dầu 0.4x622xC'
+ 'Tôn dầu 0.4x487xC' 'Thép băng mạ kẽm 0.4x333' 'Tôn dầu 0.4x811xC'
+ 'CR 0.4x614xC' 'Tôn dầu 0.4x756xC' 'Tôn dầu 0.4x562xC'
+ 'Tôn dầu 0.4x528xC' 'Tôn dầu 0.4x890xC' 'Tôn dầu 0.5x802xC'
+ 'Tôn dầu 0.4x663xC' 'Thép cán nguội 0.5x676xC' 'CR 0.4x275xC'
+ 'Thép băng Tôn dầu 0.4x647' 'CR 0.5x622xC' 'CR 0.5x528xC' 'CR 0.5x617xC'
+ 'CR 0.5x562xC' 'GI 0.4x351xC' 'GI 0.4x659xC' 'GI 0.4x292xC'
+ 'CR 0.5x811xC' 'CR 0.5x790xC' 'Thép băng mạ kẽm 0.4x676'
+ 'Thép cán nguội 0.4x565' 'Tôn dầu 0.4x647xC' 'Tôn dầu 0.4x617xC'
+ 'Thép cán nguội 0.5x711xC' 'Thép cán nguội 0.5x445xC'
+ 'Thép băng mạ kẽm 0.4x210' 'Thép cán nguội 0.5x95xC'
+ 'Thép mạ kẽm 0.4x676xC' 'Thép mạ kẽm 0.4x210xC' 'Thép mạ kẽm 0.4x333xC'
+ 'Thép mạ kẽm 0.5x88x346x2200T' 'Thép cán nguội 0.5x297xC'
+ 'Thép cán nguội 0.5x495xC' 'Thép cán nguội 0.5x523xC'
+ 'Thép cán nguội 0.4x663xC' 'Thép cán nguội 0.4x614xC' 'Tôn dầu 0.4x700xC'
+ 'Thép cán nguội 0.4x614' 'Thép cán nguội 0.4x460xC'
+ 'Thép cán nguội 0.4x700xC' 'Thép cán nguội 0.4x487xC'
+ 'Thép cán nguội 0.4x756xC' 'Thép cán nguội 0.4x275xC'
+ 'Thép cán nguội 0.4x811xC' 'Thép cán nguội 0.4x647xC'
+ 'Thép cán nguội 0.4x577xC' 'Thép cán nguội 0.5x690xC'
+ 'Thép cán nguội 0.5x790xC' 'Tôn dầu 0.4x614xC' 'Thép cán nguội 0.4x890xC'
+ 'Thép cán nguội 0.4x617xC' 'Thép cán nguội 0.4x622xC'
+ 'Thép cán nguội 0.5x802xC' 'Thép cán nguội 0.4x565xC'
+ 'Thép cán nguội 0.5x452xC' 'Thép cán nguội 0.5x595xC'
+ 'Thép cán nguội 0.5x367xC' 'Thép cán nguội 0.5x118xC'
+ 'Thép cán nguội 0.5x105xC' 'Tôn dầu 0.4x275xC' 'Thép cán nguội 0.4x562xC'
+ 'Thép cán nguội 0.4x528xC' 'Tôn dầu 0.4x565xC' 'Tôn dầu 0.5x452xC'
+ 'Tôn dầu 0.5x495xC' 'Tôn kẽm 0.4x530xC' 'Tôn Dầu 0.4x756xC'
+ 'Tôn Dầu 0.5x802xC' 'Tôn Dầu 0.4x487xC' 'Tôn Dầu 0.5x676xC'
+ 'Tôn Dầu 0.4x663xC' 'Thép Mạ Kẽm GI 0.4x292xC' 'Tôn Dầu 0.4x460xC'
+ 'Tôn dầu 0.5x711xC' 'Thép Mạ Kẽm GI 0.4x604xC' 'Thép Mạ Kẽm GI 0.4x530xC'
+ 'Tôn Dầu 0.4x647xC' 'Tôn Dầu 0.5x790xC' 'Tôn Dầu 0.5x711xC'
+ 'Tôn Dầu 0.4x700xC' 'Thép Mạ Kẽm GI 0.4x120xC' 'Tôn Dầu 0.4x622xC'
+ 'Tôn dầu 0.5x676xC' 'Tôn dầu 0.5x122xC' 'Tôn Dầu 0.4x275xC'
+ 'Tôn Dầu 0.4x811xC' 'Tôn Dầu 0.4x614xC' 'Tôn Dầu 0.4x617xC'
+ 'Tôn Dầu 0.4x890xC' 'Tôn Dầu 0.5x495xC' 'Tôn Dầu 0.5x690xC'
+ 'Tôn Dầu 0.4x565xC' 'Thép Mạ Kẽm GI 0.4x351xC' 'Thép Mạ Kẽm GI 0.4x770xC'
+ 'Thép Mạ Kẽm GI 0.4x676xC']",2025-02-27 13:37:07.138745
