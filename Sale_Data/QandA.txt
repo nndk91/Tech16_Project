@@ -1,0 +1,67 @@
+
+What is the total quantity (in KG) of all items sold across all companies in the dataset? 
+df[df['Unit'] == 'KG']['Quantity'].sum()
+
+What is the total value (in VND) of all transactions in the dataset? (df[df.Currency == 'VND']['Value']).sum()
+
+How many unique companies are represented in the sales data? df['Company_Name'].nunique()
+
+What is the total value of sales in USD across all transactions?df[df['Currency'] == 'USD']['Value'].sum()
+
+What is the total quantity of items sold in tons (TAN) across all companies?df['Quantity'].sum()/1000
+
+What is the total value of sales (in VND) for Công Ty TNHH Tân Thời in February 2019?df[(df['Company_Name'] == 'Công Ty TNHH Tân Thời') & (df['Billing Date'].dt.month == 2) & (df['Billing Date'].dt.year == 2019)]['Value'].sum()
+
+How many transactions did Công Ty TNHH Sản Xuất Cân Nhơn Hòa record in the dataset?df[df['Company_Name'] == 'Công Ty TNHH Sản Xuất Cân Nhơn Hòa']['Billing Date'].count()
+
+What is the total quantity (in KG) of items sold by Công Ty TNHH Một Thành Viên Quang Min?df[(df['Company_Name'] == 'Công Ty TNHH Một Thành Viên Quang Min') & (df['Unit'] == 'KG')]['Quantity'].sum()
+
+What is the highest-value transaction (in VND) for Công Ty TNHH BOSEUNG VINA?df[(df['Company_Name'] == 'Công Ty TNHH Một Thành Viên Quang Min') & (df['Currency'] == 'VND')].max()['Value']
+
+How much did G.I IMPORT EXPORT CO.,LTD spend in USD on transactions dated February 15, 2019?df[(df['Company_Name'] == 'G.I IMPORT EXPORT CO.,LTD') & (df['Billing Date'].dt.month == 2) & (df['Currency']== 'USD')]['Value'].sum()`
+
+What is the total quantity (in KG) of the item GI 0.65x61/43xC sold by all companies?df[df['Item_Details'].str.contains('GI 0.65x61/43xC')]['Quantity'].sum()
+
+What is the average unit price (VND per KG) of the item PO V 3.0x30x30x3005xC?df[df['Item_Details'].str.startswith('PO V 3.0x30x30x3005xC')]['Value'].sum() / df[df['Item_Details'].str.startswith('PO V 3.0x30x30x3005xC')]['Quantity'].sum()
+
+How many transactions involve the item CR 0.5 x 384 x 734 x 10.000 Tấm?df[df['Item_Details'] == 'CR 0.5x384x734x10,000Tấm'].shape[0]
+
+What is the total value (in VND) of all sales of Thép Mã Kẽm SGCC 0.65x61/43xC?df[df['Item_Details'].str.contains('Thép Mã Kẽm SGCC 0.65x61/43xC')]['Value'].sum()
+
+Which company purchased the most SPCC 0.4 XẢ BĂNG by quantity (in KG)?df[df['Item_Details'].str.contains('SPCC 0.4 XẢ BĂNG')]['Company_Name'].value_counts().idxmax()
+
+What is the total value of sales (in VND) on February 27, 2019?
+How many transactions occurred on December 30, 2019?
+What is the total quantity (in KG) of items sold on December 26, 2019, by Công Ty TNHH Tân Thời?
+What is the highest-value transaction (in VND) recorded on December 31, 2019?
+How many unique items were sold on February 20, 2019?
+What is the total value of transactions in USD for Heng Lylykeav Import Export Co.,Ltd?
+How many transactions are recorded in USD across the dataset?
+What is the average value per transaction (in USD) for Chip Mong Group Co.,LTD?
+What is the total value (in VND) of all transactions excluding those in USD?
+Which company has the highest total sales value in USD?
+What is the total quantity (in KG) of items sold with the unit KG?
+How many transactions involve items measured in TAN (tons)?
+What is the largest single transaction by quantity (in KG) in the dataset?
+What is the total quantity (in KG) of items with CR in their item details?
+How many transactions have a negative quantity, and what is their total value (in VND)?
+What is the average price per KG (in VND) for items sold by Công Ty TNHH Tân Thời?
+Which transaction has the highest unit price (VND per KG)?
+What is the total value (in VND) of transactions with a quantity greater than 5000 KG?
+What is the lowest-value transaction (in VND) in the dataset?
+What is the total value (in VND) of transactions for items with PO in their description?
+Which company had more transactions: Công Ty TNHH Tân Thời or Công Ty TNHH Sản Xuất Cân Nhơn Hòa?
+Compare the total sales value (in VND) of Công Ty TNHH Một Thành Viên Quang Min and Công Ty TNHH BOSEUNG VINA.
+Which item has a higher total sales value (in VND): GI 0.65x61/43xC or PO V 3.0x30x30x3005xC?
+Did Công Ty TNHH Tân Thời sell more in February 2019 or December 2019 by value (in VND)?
+Which company purchased more steel by quantity (in KG): Công Ty TNHH KIRBY Đông Nam Á or Công Ty Cổ Phần Kết Cấu Thép ATAD?
+What is the value (in VND) of the transaction for Công Ty TNHH Fullway on December 21, 2019, for item THÉP ỐNG CRFH 1x19.1x5320x3957pcs?
+How much did Công Ty TNHH Sản Xuất Cân Nhơn Hòa spend (in VND) on Thép cán nguội SPCC SD 0.5x329xC on December 27, 2019?
+What is the quantity (in KG) of G450 Z275 1.75x404xC sold to Công Ty Cổ Phần Kết Cấu Thép ATAD on December 30, 2019?
+What is the unit price (VND per KG) of Thép tấm SPCC 1B 0.35mm sold to Công Ty TNHH LU-FA MECHANICAL on December 30, 2019?
+What is the total value (in VND) of all transactions for Công Ty TNHH HONG MEI VN on December 28, 2019?
+Which month in 2019 had the highest total sales value (in VND)?
+How does the total quantity (in KG) of items sold in February 2019 compare to December 2019?
+Which company shows the most consistent transaction value (in VND) across multiple dates?
+What is the most frequently sold item (by number of transactions) in the dataset?
+How many companies recorded transactions on both February 27, 2019, and December 30, 2019?
